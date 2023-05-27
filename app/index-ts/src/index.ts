@@ -20,6 +20,10 @@ export default `
       font-size: 16px;
     }
 
+    p a {
+      color: #eeeeee;
+    }
+
     .margin {
       margin-bottom: 45px;
     }
@@ -101,38 +105,39 @@ export default `
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#">WHO</a></li>
-          <li><a href="#">WHAT</a></li>
-          <li><a href="#">WHERE</a></li>
+          <li><a href="#who-we-are">WHO</a></li>
+          <li><a href="#what-we-do">WHAT</a></li>
+          <li><a href="#where-we-are">WHERE</a></li>
+          <li><a href="https://gitee.com/weikaopu/weikaopu/blob/main/app/index/index.html">Gitee</a></li>
         </ul>
       </div>
     </div>
   </nav>
 
   <!-- First Container -->
-  <div class="container-fluid bg-1 text-center">
+  <div class="container-fluid bg-1 text-center" id="who-we-are">
     <h3 class="margin">我们是谁?</h3>
-    <h3>我们是一小群靠谱的SAP原厂顾问</h3>
+    <h3>我们是一小群愿意交流，传播，分享知识的靠谱SAP顾问</h3>
   </div>
 
   <!-- Second Container -->
-  <div class="container-fluid bg-2 text-center">
+  <div class="container-fluid bg-2 text-center" id="what-we-do">
     <h3 class="margin">我们是做什么的?</h3>
-    <p>我们负责SAP业务技术平台、用户体验、安全领域相关技术产品的咨询和解决方案交付工作</p>
+    <p>我们擅长的技术领域包括SAP<a href="https://www.sap.cn/products/technology-platform.html">业务技术平台</a>应用开发（比如：<a href="https://cap.cloud.sap/docs/">CAP</a>技术）、用户体验（比如：<a href="https://ui5.sap.com/">UI5</a>和<a href="https://www.sap.cn/products/technology-platform/fiori.html">Fiori</a>技术）和安全</p>
   </div>
 
   <!-- Third Container (Grid) -->
-  <div class="container-fluid bg-3 text-center">
-    <h3 class="margin">如何联系到我们?</h3><br>
+  <div class="container-fluid bg-3 text-center" id="where-we-are">
+    <h3 class="margin">我们在哪?</h3><br>
     <div class="row">
       <div class="col-sm-4">
-        <p>目前我们的社区还在建设初期，尚无公开的联系方式</p>
+        <p>五湖四海，目前该社区还在建设初期，尚无公开的联系方式</p>
       </div>
       <div class="col-sm-4">
-        <p>当然通过SAP原厂高级服务有机碰到我们</p>
+        <p>圈子很小，有时会在生活中偶遇</p>
       </div>
       <div class="col-sm-4">
-        <p>还有通过靠谱的人介绍</p>
+        <p>希望就在这里，能找到靠谱的资料</p>
       </div>
     </div>
   </div>
