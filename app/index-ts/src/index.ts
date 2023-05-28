@@ -107,17 +107,22 @@ export default `
       </div>
       <div class="collapse navbar-collapse" id="myNavbar">
         <ul class="nav navbar-nav navbar-right">
-          <li><a href="#who-we-are">WHO</a></li>
-          <li><a href="#what-we-do">WHAT</a></li>
-          <li><a href="#where-we-are">WHERE</a></li>
           <li class="dropdown">
-            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CDN Docs<span class="caret"></span></a>
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">关于我们<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="#who-we-are">WHO</a></li>
+              <li><a href="#what-we-do">WHAT</a></li>
+              <li><a href="#where-we-are">WHERE</a></li>
+            </ul>
+          </li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CDN文档<span class="caret"></span></a>
             <ul class="dropdown-menu">
               <li><a href="/cap/docs/">CAP</a></li>
               <li><a href="/cloud-sdk">Cloud SDK</a></li>
             </ul>
           </li>
-          <li><a href="https://gitee.com/weikaopu/weikaopu/blob/main/app/index/index.html">Open Source</a></li>
+          <li><a href="https://gitee.com/weikaopu/weikaopu/blob/main/app/index/index.html">开源</a></li>
         </ul>
       </div>
     </div>
