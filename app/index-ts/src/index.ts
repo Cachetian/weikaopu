@@ -71,6 +71,11 @@ export default `
       color: #d1e8ff !important;
     }
 
+    .navbar-default .navbar-nav>.open>a:focus,
+    .navbar-default .navbar-nav>.open>a:hover {
+      background-color: hsl(210, 38%, 37%);
+    }
+
     .navbar-default .navbar-brand {
       color: #fff;
     }
