@@ -100,6 +100,8 @@ export default `
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
           <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
         </button>
         <a class="navbar-brand" href="#">wei靠谱</a>
       </div>
@@ -108,7 +110,14 @@ export default `
           <li><a href="#who-we-are">WHO</a></li>
           <li><a href="#what-we-do">WHAT</a></li>
           <li><a href="#where-we-are">WHERE</a></li>
-          <li><a href="https://gitee.com/weikaopu/weikaopu/blob/main/app/index/index.html">Gitee</a></li>
+          <li class="dropdown">
+            <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">CDN Docs<span class="caret"></span></a>
+            <ul class="dropdown-menu">
+              <li><a href="/cap/docs/">CAP</a></li>
+              <li><a href="/cloud-sdk">Cloud SDK</a></li>
+            </ul>
+          </li>
+          <li><a href="https://gitee.com/weikaopu/weikaopu/blob/main/app/index/index.html">Open Source</a></li>
         </ul>
       </div>
     </div>
