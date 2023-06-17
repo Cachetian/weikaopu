@@ -128,6 +128,7 @@ export default `
               <li><a href="/cloud-sdk">SAP Cloud SDK</a></li>
             </ul>
           </li>
+          <li><a href="/fiori-show-case/">Fiori Elements案例展示</a></li>
           <li><a href="https://gitee.com/weikaopu/weikaopu/blob/main/app/index/index.html">源码</a></li>
         </ul>
       </div>
